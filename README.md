@@ -1,5 +1,5 @@
 # Transformer Image Completion 
 
-In this repo i will code a transformer network including multihead-self-attention using Tensorflow.
-The network will be trained using images from the ImageNet-R dataset, which were cut in half. 
-The goal of the network will be to predict the missing half of each image. 
+In this repo i will code a transformer network from scratch using Tensorflow.
+The network will be trained using images from the ImageNet-R dataset.
+The transformer model will be a decoder-only transformer, which will be trained autoregressively.
