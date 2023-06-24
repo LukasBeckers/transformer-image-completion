@@ -13,7 +13,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Model Architecture
 ### Model
-I used a decoder-only transformer network with a model-dimension of 400, 4 heads, and 3 layers. To prevent v-ram overflow during training, I used a linear expansion of 2x model-dimension.
+I used a decoder-only transformer network with a model-dimension of 400, 4 heads, and 3 layers. To prevent v-ram overflow during training, I used a linear expansion of 2 instead of 4.
 
 ### Data Preprocessing
 The MNIST images were split into 4x4 image-segments.
