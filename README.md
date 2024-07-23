@@ -1,6 +1,6 @@
 # Transformer Image Completion 
 ## Introduction
-In this repository, I have implemented a transformer network from scratch using TensorFlow. The transformer model is a decoder-only transformer, trained autoregressively to predict the next image segment. The architecture of this model is mainly based on the groundbreaking paper 'Attention is all you need' (https://doi.org/10.48550/arXiv.1706.03762).
+In this repository, I have implemented a transformer network from scratch using TensorFlow. The transformer model is a decoder-only transformer, trained autoregressively to predict the next image segment. The architecture of this model is mainly based on the groundbreaking paper  ![Attention is All You Need!](https://doi.org/10.48550/arXiv.1706.03762) .
 
 I chose the MNIST dataset for this project due to limited computational resources.
 
